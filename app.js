@@ -1,84 +1,89 @@
 //let requestFortune = document.querySelector(".button1");
 
-let deliverFortune = document.querySelector(".fortune-display")
+//let deliverFortune = document.querySelector(".fortune-display")
 
 let randomNumber = Math.floor(Math.random * 24);
 
 switch (randomNumber) {
     case 0:
-        console.log('Be careful who you trust. Salt and sugar look the same.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Be careful who you trust. Salt and sugar look the same.';
         break;
     case 1:
-        console.log('Ignore previous message.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Ignore previous message.';
         break;
     case 2:
-        console.log('There is no angry way to say bubbles.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'There is no angry way to say bubbles.';
         break;
     case 3:
-        console.log('It could be better but it\'s good enough.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'It could be better but it\'s good enough.';
         break;
     case 4:
-        console.log('The road to success is always under construction.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'The road to success is always under construction.';
         break;
     case 5:
-        console.log('You must expect great things of yourself before you can do them.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'You must expect great things of yourself before you can do them.';
         break;
     case 6:
-        console.log('You can\'t know, you can only believe. Or not. -C.S. Lewis');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'You can\'t know, you can only believe. Or not. -C.S. Lewis';
         break;
     case 7:
-        console.log('Perfect is boring. Human is beautiful.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Perfect is boring. Human is beautiful.';
         break;
     case 8:
-        console.log('Forever is a long time.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Forever is a long time.';
         break;
     case 9:
-        console.log('A party without cake is just a meeting. -Julia Child');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'A party without cake is just a meeting. -Julia Child';
         break;
     case 10:
-        console.log('The challenge is not to be perfect. It\'s to be whole. -Jane Fonda');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'The challenge is not to be perfect. It\'s to be whole. -Jane Fonda';
         break;
     case 11:
-        console.log('Nobody gets to tell you how big your dreams can be.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Nobody gets to tell you how big your dreams can be.';
         break;
     case 12:
-        console.log('There is no death. Only a change of worlds.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'There is no death. Only a change of worlds.';
         break;
     case 13:
-        console.log('A person who never made a mistake never tried anything new.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'A person who never made a mistake never tried anything new.';
         break;
     case 14:
-        console.log('Stay close to people who feel like sunlight. -Xan Oku');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Stay close to people who feel like sunlight. -Xan Oku';
         break;
     case 15:
-        console.log('Progress not perfection.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Progress not perfection.';
         break;
     case 16:
-        console.log('Don\'t make a wish. Make a decision.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Don\'t make a wish. Make a decision.';
         break;
     case 17:
-        console.log('Adjust your eyes. See the same things differently.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Adjust your eyes. See the same things differently.';
         break;
     case 18:
-        console.log('Take nothing personally.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Take nothing personally.';
         break;
     case 19:
-        console.log('It\'s good to be prepared but stay open to surprises.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'It\'s good to be prepared but stay open to surprises.';
         break;
     case 20:
-        console.log('Let people discover you.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Let people discover you.';
         break;
     case 21:
-        console.log('Be passionate and totally worth the chaos.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Be passionate and totally worth the chaos.';
         break;
     case 22:
-        console.log('Go outside and play.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Go outside and play.';
         break;
     case 23:
-        console.log('Beware the grand gesture.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'Beware the grand gesture.';
         break;
     case 24:
-        console.log('A closed mouth gathers no feet.');
+        document.getElementsByClassName(".fortune-display").innerHTML = 'A closed mouth gathers no feet.';
         break;
+}
+
+function deliverFortune() {
+    let randomNumber = Math.floor(Math.random * 24);
+
 }
 
