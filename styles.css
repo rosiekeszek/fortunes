@@ -16,3 +16,10 @@ body {
     background-color: black;
     border: solid;
 }
+
+.fortune-display {
+    color: white;
+    margin-left: 33%;
+    margin-top: 15%;
+    margin-bottom: -15%;
+}
