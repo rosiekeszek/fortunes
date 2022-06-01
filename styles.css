@@ -5,3 +5,14 @@ body {
     background-attachment: fixed;
 }    
 
+.button1 {
+    font-size: 20px;
+    width: 20em;
+    height: 3em;
+    border-radius: 15px;
+    margin-left: 37%;
+    margin-top: 35%;
+    color:blueviolet;
+    background-color: black;
+    border: solid;
+}
