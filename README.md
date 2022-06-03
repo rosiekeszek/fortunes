@@ -7,3 +7,4 @@ Changes made to switch statment syntax
 Correction to switch statment
 
 JS works
+Layout is done
